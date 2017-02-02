@@ -1,0 +1,25 @@
+The Ghost.
+A set of character sprite for 2d side scrolling games.
+Lets make your scary game.
+
+With 5 cool animations :
+Hurt
+Idle
+Idle Blinking
+Slashing
+Smoke Effect
+
+The main file contains :
+.AI ("Ghost 01" Illustrator file)
+.EPS (13 files for each vector part)
+.PNG Sequences (For each animation in 3 different sizes, Large / Medium / Small)
+.PNG Files(For each vector parts in 3 different sizes, Large / Medium / Small)
+.SCML (Spriter source file used to create the animation)
+
+Features :
+100% vector
+Easy to edit the vector
+Can edit or add the animation using spriter.
+
+Notes :
+Minimum Adobe CS Version to open the .AI file (CS5)
