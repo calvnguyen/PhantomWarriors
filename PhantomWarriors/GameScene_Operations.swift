@@ -567,7 +567,6 @@ extension GameScene {
     }
     
     
-    //v 1.42
     
     func resetPlatforms(){
         

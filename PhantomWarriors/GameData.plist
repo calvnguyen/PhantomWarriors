@@ -40,9 +40,9 @@
 			<key>SoundLevelSucceed</key>
 			<string>win-sound.mp3</string>
 			<key>SoundPlayer1Win</key>
-			<string></string>
+			<string>win-sound.mp3</string>
 			<key>SoundPlayer2Win</key>
-			<string></string>
+			<string>win-sound.mp3</string>
 			<key>UnlimitedBullets</key>
 			<false/>
 			<key>KeepExistingBulletCount</key>
@@ -95,6 +95,143 @@
 			</dict>
 			<key>Enemies</key>
 			<dict>
+				<key>PeasantMiddle</key>
+				<dict>
+					<key>Name</key>
+					<string>Peasant</string>
+					<key>InitialDelay</key>
+					<integer>1</integer>
+					<key>Score</key>
+					<integer>100</integer>
+					<key>SpawnFrequency</key>
+					<integer>7</integer>
+					<key>TotalToSpawn</key>
+					<integer>0</integer>
+					<key>SpawnNode</key>
+					<string>MiddleSpawn</string>
+					<key>BodyType</key>
+					<string>Circle</string>
+					<key>BodyOffset</key>
+					<string>{ 0, 18 }</string>
+					<key>RadiusDivider</key>
+					<integer>3</integer>
+					<key>XScale</key>
+					<integer>1</integer>
+					<key>ReviveTime</key>
+					<integer>1</integer>
+					<key>SpeedAfterRevive</key>
+					<integer>4</integer>
+					<key>ReviveCount</key>
+					<integer>1</integer>
+					<key>BlinkToDeath</key>
+					<true/>
+					<key>JumpOnToKill</key>
+					<true/>
+					<key>JumpOnBounceBack</key>
+					<integer>100</integer>
+					<key>JumpThreshold</key>
+					<integer>50</integer>
+					<key>Speed</key>
+					<integer>1</integer>
+					<key>Atlas</key>
+					<string>Peasant</string>
+					<key>BaseFrame</key>
+					<string>PeasantWalk1</string>
+					<key>Depth</key>
+					<integer>1</integer>
+					<key>SoundEnemyEnter</key>
+					<string></string>
+					<key>SoundEnemyHurt</key>
+					<string>monster_hurt.wav</string>
+					<key>SoundEnemyDie</key>
+					<string>monster_hurt.wav</string>
+					<key>SoundEnemyAttack</key>
+					<string></string>
+					<key>WalkFrames</key>
+					<array>
+						<string>PeasantWalk1</string>
+						<string>PeasantWalk2</string>
+						<string>PeasantWalk3</string>
+						<string>PeasantWalk4</string>
+						<string>PeasantWalk5</string>
+						<string>PeasantWalk6</string>
+						<string>PeasantWalk7</string>
+						<string>PeasantWalk8</string>
+						<string>PeasantWalk9</string>
+						<string>PeasantWalk10</string>
+						<string>PeasantWalk11</string>
+						<string>PeasantWalk12</string>
+						<string>PeasantWalk13</string>
+						<string>PeasantWalk14</string>
+						<string>PeasantWalk16</string>
+					</array>
+					<key>AttackFrames</key>
+					<array>
+						<string>PeasantAttack1</string>
+						<string>PeasantAttack2</string>
+						<string>PeasantAttack3</string>
+						<string>PeasantAttack4</string>
+						<string>PeasantAttack5</string>
+						<string>PeasantAttack6</string>
+						<string>PeasantAttack7</string>
+						<string>PeasantAttack8</string>
+						<string>PeasantAttack9</string>
+						<string>PeasantAttack10</string>
+						<string>PeasantAttack11</string>
+						<string>PeasantAttack12</string>
+					</array>
+					<key>AngryWalkFrames</key>
+					<array>
+						<string>PeasantRun1</string>
+						<string>PeasantRun2</string>
+						<string>PeasantRun3</string>
+						<string>PeasantRun4</string>
+						<string>PeasantRun5</string>
+						<string>PeasantRun6</string>
+						<string>PeasantRun7</string>
+						<string>PeasantRun8</string>
+					</array>
+					<key>HurtFrames</key>
+					<array>
+						<string>PeasantHurt1</string>
+						<string>PeasantHurt2</string>
+						<string>PeasantHurt3</string>
+						<string>PeasantHurt4</string>
+						<string>PeasantHurt5</string>
+						<string>PeasantHurt6</string>
+						<string>PeasantHurt7</string>
+						<string>PeasantHurt8</string>
+						<string>PeasantHurt9</string>
+						<string>PeasantHurt10</string>
+						<string>PeasantHurt11</string>
+						<string>PeasantHurt12</string>
+					</array>
+					<key>DeadFrames</key>
+					<array>
+						<string>PeasantDeath1</string>
+						<string>PeasantDeath2</string>
+						<string>PeasantDeath3</string>
+						<string>PeasantDeath4</string>
+						<string>PeasantDeath5</string>
+						<string>PeasantDeath6</string>
+						<string>PeasantDeath7</string>
+						<string>PeasantDeath8</string>
+						<string>PeasantDeath9</string>
+						<string>PeasantDeath10</string>
+						<string>PeasantDeath11</string>
+						<string>PeasantDeath12</string>
+					</array>
+					<key>HurtFPS</key>
+					<integer>10</integer>
+					<key>DeadFPS</key>
+					<integer>10</integer>
+					<key>WalkFPS</key>
+					<integer>10</integer>
+					<key>AngryWalkFPS</key>
+					<integer>30</integer>
+					<key>RemoveOutsideBoundary</key>
+					<false/>
+				</dict>
 				<key>SkeletonKingLeft</key>
 				<dict>
 					<key>Name</key>
@@ -132,7 +269,7 @@
 					<key>JumpThreshold</key>
 					<integer>50</integer>
 					<key>Speed</key>
-					<integer>2</integer>
+					<integer>3</integer>
 					<key>Atlas</key>
 					<string>SkeletonKing</string>
 					<key>BaseFrame</key>
@@ -699,7 +836,7 @@
 			<key>SoundLoseHeart</key>
 			<string></string>
 			<key>SoundDead</key>
-			<string>game-die.mp3</string>
+			<string>male_death.wav</string>
 			<key>SoundBounce</key>
 			<string></string>
 			<key>SoundShoot</key>
@@ -836,7 +973,7 @@
 			<key>SoundLoseHeart</key>
 			<string></string>
 			<key>SoundDead</key>
-			<string>game-die.mp3</string>
+			<string>female-death.wav</string>
 			<key>SoundBounce</key>
 			<string></string>
 			<key>SoundShoot</key>

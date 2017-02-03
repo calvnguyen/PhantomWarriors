@@ -286,7 +286,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var soundPlayer2Win:String = ""
     var soundUnpaused:String = ""
     
-    //v1.1
     
     var boundaryFlipEnemies:Bool = false
     var boundaryFlipPlayers:Bool = false
@@ -295,7 +294,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var restrictCameraX:Bool = false
     var minimumEnemiesToPass:Int = 0
     
-    //v1.2
     var trackNum:Int = 0
     var mp3List = [String]()
     var justStartedNewTrack:Bool = false
@@ -3887,7 +3885,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     
                 }  else {
                     
-                    //v1.1
+
                     //let convertedLocation:CGPoint = self.convertPoint(location, fromNode: theCamera)
                     
                     var enemySpawnPoint:CGPoint = CGPoint.zero
