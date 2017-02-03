@@ -114,7 +114,6 @@ extension GameScene {
             
             let convertedLocation:CGPoint = self.convert(location, to: theCamera)
             
-            //v1.3
             if ( self.isPaused == true && convertedLocation.x < 0) {
                 
                 stopMusicByGoingLeft()

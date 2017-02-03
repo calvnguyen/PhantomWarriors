@@ -8,7 +8,7 @@
 			<key>SKSFile</key>
 			<string>Level1</string>
 			<key>PassLevelWithEnemiesKilled</key>
-			<integer>60</integer>
+			<integer>40</integer>
 			<key>HalfGoalsToPassForOnePlayer</key>
 			<true/>
 			<key>GoalMultipliedByLevelsPassed</key>
@@ -26,7 +26,7 @@
 			<key>LevelResetsHearts</key>
 			<true/>
 			<key>StealHearts</key>
-			<false/>
+			<true/>
 			<key>PlayerOnPlayerBounceThreshold</key>
 			<integer>50</integer>
 			<key>PlayerOnPlayerImpact</key>
@@ -36,9 +36,9 @@
 			<key>SoundLevelBegin</key>
 			<string></string>
 			<key>SoundLevelFail</key>
-			<string></string>
+			<string>game-over.wav</string>
 			<key>SoundLevelSucceed</key>
-			<string></string>
+			<string>win-sound.mp3</string>
 			<key>SoundPlayer1Win</key>
 			<string></string>
 			<key>SoundPlayer2Win</key>
@@ -60,36 +60,36 @@
 				<key>AwardsHowMuch</key>
 				<integer>15</integer>
 				<key>SpawnsHowOften</key>
-				<integer>30</integer>
+				<integer>40</integer>
 				<key>SpawnsAtRandomTime</key>
 				<true/>
 				<key>MinimumTimeBetweenSpawns</key>
-				<integer>15</integer>
+				<integer>20</integer>
 				<key>AwardsToBothPlayers</key>
 				<false/>
 				<key>OnlyAllowOneAtATime</key>
 				<true/>
 				<key>SoundAmmoCollect</key>
-				<string>Coin.caf</string>
+				<string>ammo-pick-up.wav</string>
 				<key>SoundAmmoDrop</key>
 				<string></string>
 			</dict>
 			<key>Player2Ammo</key>
 			<dict>
 				<key>AwardsHowMuch</key>
-				<integer>20</integer>
+				<integer>15</integer>
 				<key>SpawnsHowOften</key>
-				<integer>30</integer>
+				<integer>40</integer>
 				<key>SpawnsAtRandomTime</key>
 				<true/>
 				<key>MinimumTimeBetweenSpawns</key>
-				<integer>15</integer>
+				<integer>20</integer>
 				<key>AwardsToBothPlayers</key>
 				<false/>
 				<key>OnlyAllowOneAtATime</key>
 				<true/>
 				<key>SoundAmmoCollect</key>
-				<string>Coin.caf</string>
+				<string>ammo-pick-up.wav</string>
 				<key>SoundAmmoDrop</key>
 				<string></string>
 			</dict>
@@ -104,7 +104,7 @@
 					<key>Score</key>
 					<integer>500</integer>
 					<key>SpawnFrequency</key>
-					<integer>5</integer>
+					<integer>2</integer>
 					<key>TotalToSpawn</key>
 					<integer>0</integer>
 					<key>SpawnNode</key>
@@ -118,7 +118,7 @@
 					<key>XScale</key>
 					<integer>1</integer>
 					<key>ReviveTime</key>
-					<integer>5</integer>
+					<integer>1</integer>
 					<key>SpeedAfterRevive</key>
 					<integer>4</integer>
 					<key>ReviveCount</key>
@@ -181,22 +181,14 @@
 					</array>
 					<key>AngryWalkFrames</key>
 					<array>
-						<string>KingWalk1</string>
-						<string>KingWalk2</string>
-						<string>KingWalk3</string>
-						<string>KingWalk4</string>
-						<string>KingWalk5</string>
-						<string>KingWalk6</string>
-						<string>KingWalk7</string>
-						<string>KingWalk8</string>
-						<string>KingWalk9</string>
-						<string>KingWalk10</string>
-						<string>KingWalk11</string>
-						<string>KingWalk12</string>
-						<string>KingWalk13</string>
-						<string>KingWalk14</string>
-						<string>KingWalk15</string>
-						<string>KingWalk16</string>
+						<string>KingRun1</string>
+						<string>KingRun2</string>
+						<string>KingRun3</string>
+						<string>KingRun4</string>
+						<string>KingRun5</string>
+						<string>KingRun6</string>
+						<string>KingRun7</string>
+						<string>KingRun8</string>
 					</array>
 					<key>HurtFrames</key>
 					<array>
@@ -253,18 +245,18 @@
 					<key>RemoveOutsideBoundary</key>
 					<false/>
 				</dict>
-				<key>SkeletonKingRight</key>
+				<key>DeathRiderRight</key>
 				<dict>
 					<key>Name</key>
-					<string>SkeletonKing</string>
+					<string>DeathRider</string>
 					<key>InitialDelay</key>
 					<integer>1</integer>
 					<key>Score</key>
-					<integer>500</integer>
+					<integer>600</integer>
 					<key>SpawnFrequency</key>
-					<integer>5</integer>
+					<integer>4</integer>
 					<key>TotalToSpawn</key>
-					<integer>2</integer>
+					<integer>0</integer>
 					<key>SpawnNode</key>
 					<string>RightSpawn</string>
 					<key>BodyType</key>
@@ -276,7 +268,7 @@
 					<key>XScale</key>
 					<integer>-1</integer>
 					<key>ReviveTime</key>
-					<integer>5</integer>
+					<integer>1</integer>
 					<key>SpeedAfterRevive</key>
 					<integer>4</integer>
 					<key>ReviveCount</key>
@@ -290,11 +282,11 @@
 					<key>JumpThreshold</key>
 					<integer>50</integer>
 					<key>Speed</key>
-					<integer>2</integer>
+					<integer>5</integer>
 					<key>Atlas</key>
-					<string>SkeletonKing</string>
+					<string>DeathRider</string>
 					<key>BaseFrame</key>
-					<string>KingWalk1</string>
+					<string>DeathRiderRun1</string>
 					<key>Depth</key>
 					<integer>1</integer>
 					<key>SoundEnemyEnter</key>
@@ -307,98 +299,68 @@
 					<string></string>
 					<key>WalkFrames</key>
 					<array>
-						<string>KingWalk1</string>
-						<string>KingWalk2</string>
-						<string>KingWalk3</string>
-						<string>KingWalk4</string>
-						<string>KingWalk5</string>
-						<string>KingWalk6</string>
-						<string>KingWalk7</string>
-						<string>KingWalk8</string>
-						<string>KingWalk9</string>
-						<string>KingWalk10</string>
-						<string>KingWalk11</string>
-						<string>KingWalk12</string>
-						<string>KingWalk13</string>
-						<string>KingWalk14</string>
-						<string>KingWalk15</string>
-						<string>KingWalk16</string>
+						<string>DeathRiderRun1</string>
+						<string>DeathRiderRun2</string>
+						<string>DeathRiderRun3</string>
+						<string>DeathRiderRun4</string>
+						<string>DeathRiderRun5</string>
+						<string>DeathRiderRun6</string>
+						<string>DeathRiderRun7</string>
+						<string>DeathRiderRun8</string>
+						<string>DeathRiderRun9</string>
+						<string>DeathRiderRun10</string>
 					</array>
 					<key>AttackFrames</key>
 					<array>
-						<string>KingAttack1</string>
-						<string>KingAttack2</string>
-						<string>KingAttack3</string>
-						<string>KingAttack4</string>
-						<string>KingAttack5</string>
-						<string>KingAttack6</string>
-						<string>KingAttack7</string>
-						<string>KingAttack8</string>
-						<string>KingAttack9</string>
-						<string>KingAttack10</string>
+						<string>DeathRiderAttack1</string>
+						<string>DeathRiderAttack2</string>
+						<string>DeathRiderAttack3</string>
+						<string>DeathRiderAttack4</string>
+						<string>DeathRiderAttack5</string>
+						<string>DeathRiderAttack6</string>
+						<string>DeathRiderAttack7</string>
+						<string>DeathRiderAttack8</string>
+						<string>DeathRiderAttack9</string>
+						<string>DeathRiderAttack10</string>
 					</array>
 					<key>AngryWalkFrames</key>
 					<array>
-						<string>KingWalk1</string>
-						<string>KingWalk2</string>
-						<string>KingWalk3</string>
-						<string>KingWalk4</string>
-						<string>KingWalk5</string>
-						<string>KingWalk6</string>
-						<string>KingWalk7</string>
-						<string>KingWalk8</string>
-						<string>KingWalk9</string>
-						<string>KingWalk10</string>
-						<string>KingWalk11</string>
-						<string>KingWalk12</string>
-						<string>KingWalk13</string>
-						<string>KingWalk14</string>
-						<string>KingWalk15</string>
-						<string>KingWalk16</string>
+						<string>DeathRiderRun1</string>
+						<string>DeathRiderRun2</string>
+						<string>DeathRiderRun3</string>
+						<string>DeathRiderRun4</string>
+						<string>DeathRiderRun5</string>
+						<string>DeathRiderRun6</string>
+						<string>DeathRiderRun7</string>
+						<string>DeathRiderRun8</string>
+						<string>DeathRiderRun9</string>
+						<string>DeathRiderRun10</string>
 					</array>
 					<key>HurtFrames</key>
 					<array>
-						<string>KingHurt1</string>
-						<string>KingHurt2</string>
-						<string>KingHurt3</string>
-						<string>KingHurt4</string>
-						<string>KingHurt5</string>
-						<string>KingHurt6</string>
-						<string>KingHurt7</string>
-						<string>KingHurt8</string>
-						<string>KingHurt9</string>
-						<string>KingHurt10</string>
-						<string>KingHurt11</string>
-						<string>KingHurt12</string>
-						<string>KingHurt13</string>
-						<string>KingHurt14</string>
-						<string>KingHurt15</string>
-						<string>KingHurt16</string>
-						<string>KingHurt17</string>
-						<string>KingHurt18</string>
+						<string>DeathRiderHurt1</string>
+						<string>DeathRiderHurt2</string>
+						<string>DeathRiderHurt3</string>
+						<string>DeathRiderHurt4</string>
+						<string>DeathRiderHurt5</string>
+						<string>DeathRiderHurt6</string>
+						<string>DeathRiderHurt7</string>
+						<string>DeathRiderHurt8</string>
 					</array>
 					<key>DeadFrames</key>
 					<array>
-						<string>KingDeath1</string>
-						<string>KingDeath2</string>
-						<string>KingDeath3</string>
-						<string>KingDeath4</string>
-						<string>KingDeath5</string>
-						<string>KingDeath6</string>
-						<string>KingDeath7</string>
-						<string>KingDeath8</string>
-						<string>KingDeath9</string>
-						<string>KingDeath10</string>
-						<string>KingDeath11</string>
-						<string>KingDeath12</string>
-						<string>KingDeath13</string>
-						<string>KingDeath14</string>
-						<string>KingDeath15</string>
-						<string>KingDeath16</string>
-						<string>KingDeath17</string>
-						<string>KingDeath18</string>
-						<string>KingDeath19</string>
-						<string>KingDeath20</string>
+						<string>DeathRiderDead1</string>
+						<string>DeathRiderDead2</string>
+						<string>DeathRiderDead3</string>
+						<string>DeathRiderDead4</string>
+						<string>DeathRiderDead5</string>
+						<string>DeathRiderDead6</string>
+						<string>DeathRiderDead7</string>
+						<string>DeathRiderDead8</string>
+						<string>DeathRiderDead9</string>
+						<string>DeathRiderDead10</string>
+						<string>DeathRiderDead11</string>
+						<string>DeathRiderDead12</string>
 					</array>
 					<key>HurtFPS</key>
 					<integer>10</integer>
@@ -529,9 +491,9 @@
 			<key>SoundLevelBegin</key>
 			<string></string>
 			<key>SoundLevelFail</key>
-			<string></string>
+			<string>game-over.wav</string>
 			<key>SoundLevelSucceed</key>
-			<string></string>
+			<string>win-sound.mp3</string>
 			<key>SoundPlayer1Win</key>
 			<string></string>
 			<key>SoundPlayer2Win</key>
@@ -652,12 +614,15 @@
 				<string>Player1_Jump1</string>
 				<string>Player1_Jump2</string>
 				<string>Player1_Jump3</string>
+				<string>Player1_Fly1</string>
 				<string>Player1_Jump4</string>
 				<string>Player1_Jump5</string>
 				<string>Player1_Jump6</string>
+				<string>Player1_Fly2</string>
 				<string>Player1_Jump7</string>
 				<string>Player1_Jump8</string>
 				<string>Player1_Jump9</string>
+				<string>Player1_Fly3</string>
 				<string>Player1_Jump10</string>
 			</array>
 			<key>ClimbFrames</key>
@@ -681,8 +646,11 @@
 			<array>
 				<string>Player1_Run1</string>
 				<string>Player1_Run2</string>
+				<string>Player1_Fly1</string>
 				<string>Player1_Run3</string>
+				<string>Player1_Fly2</string>
 				<string>Player1_Run4</string>
+				<string>Player1_Fly3</string>
 				<string>Player1_Run5</string>
 				<string>Player1_Run6</string>
 			</array>
@@ -731,7 +699,7 @@
 			<key>SoundLoseHeart</key>
 			<string></string>
 			<key>SoundDead</key>
-			<string></string>
+			<string>game-die.mp3</string>
 			<key>SoundBounce</key>
 			<string></string>
 			<key>SoundShoot</key>
@@ -739,7 +707,7 @@
 			<key>SoundBulletImpact</key>
 			<string>Explosion.mp3</string>
 			<key>SoundNoAmmo</key>
-			<string></string>
+			<string>no-ammo.wav</string>
 		</dict>
 		<key>Player2</key>
 		<dict>
@@ -795,12 +763,15 @@
 				<string>Player2_Jump1</string>
 				<string>Player2_Jump2</string>
 				<string>Player2_Jump3</string>
+				<string>Player2_Fly1</string>
 				<string>Player2_Jump4</string>
 				<string>Player2_Jump5</string>
 				<string>Player2_Jump6</string>
+				<string>Player2_Fly2</string>
 				<string>Player2_Jump7</string>
 				<string>Player2_Jump8</string>
 				<string>Player2_Jump9</string>
+				<string>Player2_Fly3</string>
 				<string>Player2_Jump10</string>
 			</array>
 			<key>WalkFrames</key>
@@ -817,10 +788,13 @@
 			<key>RunFrames</key>
 			<array>
 				<string>Player2_Run1</string>
+				<string>Player2_Fly1</string>
 				<string>Player2_Run2</string>
 				<string>Player2_Run3</string>
+				<string>Player2_Fly2</string>
 				<string>Player2_Run4</string>
 				<string>Player2_Run5</string>
+				<string>Player2_Fly3</string>
 				<string>Player2_Run6</string>
 			</array>
 			<key>WalkFPS</key>
@@ -862,7 +836,7 @@
 			<key>SoundLoseHeart</key>
 			<string></string>
 			<key>SoundDead</key>
-			<string></string>
+			<string>game-die.mp3</string>
 			<key>SoundBounce</key>
 			<string></string>
 			<key>SoundShoot</key>
@@ -870,7 +844,7 @@
 			<key>SoundBulletImpact</key>
 			<string>Explosion.mp3</string>
 			<key>SoundNoAmmo</key>
-			<string></string>
+			<string>no-ammo.wav</string>
 		</dict>
 	</dict>
 	<key>Home</key>

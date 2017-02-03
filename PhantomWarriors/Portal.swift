@@ -13,10 +13,6 @@ import UIKit
 class Portal: SKSpriteNode {
     
     
-    //var goesWhere:String = ""  //left over from tutorial, not used.
-    
-    //v1.4
-    
     var goesToSpecificLevel:Bool = false
     var levelToLoad:Int = 1
     var levelsName:String = "Levels" //The array of levels to go to. This could be an alternate grouping of levels, like "SecretLevels"

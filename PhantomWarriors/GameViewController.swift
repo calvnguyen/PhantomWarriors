@@ -63,7 +63,7 @@ class GameViewController: UIViewController {
             scene.propertyListData = sksNameToLoad
             
             let skView = self.view as! SKView
-            skView.showsFPS = false
+            skView.showsFPS = true
             skView.showsNodeCount = false
             
             /* Sprite Kit applies additional optimizations to improve rendering performance */
