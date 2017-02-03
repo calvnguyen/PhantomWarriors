@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 import SpriteKit
 
 
@@ -39,7 +40,6 @@ extension GameScene {
             defaults.set(bulletCountPlayer2, forKey: "BulletCountPlayer2")
             
             bulletLabel2.text = String(self.bulletCountPlayer2 )
-            
             
             
             

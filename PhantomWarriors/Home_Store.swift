@@ -1,8 +1,15 @@
-
+//
+//  Home_Store.swift
+//  Phantom Warrior
+//
+//  Created by Calvin Nguyen on 1/31/17.
+//  Copyright © 2017 Calvin Nguyen. All rights reserved.
+//
 
 import Foundation
 import SpriteKit
 import StoreKit
+import UIKit
 
 extension Home {
     

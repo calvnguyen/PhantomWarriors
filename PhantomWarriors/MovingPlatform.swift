@@ -1,13 +1,14 @@
 //
-//  MovingPlatformX.swift
-//  SideScroller
+//  MovingPlatform.swift
+//  Phantom Warrior
 //
-//  Created by Justin Dike 2 on 10/23/15.
-//  Copyright © 2015 CartoonSmart. All rights reserved.
+//  Created by Calvin Nguyen on 1/31/17.
+//  Copyright © 2017 Calvin Nguyen. All rights reserved.
 //
 
 import Foundation
 import SpriteKit
+import UIKit
 
 
 class MovingPlatform: Platform {

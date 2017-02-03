@@ -1,13 +1,14 @@
 //
 //  MovingPole.swift
-//  SideScroller
+//  Phantom Warrior
 //
-//  Created by Justin Dike 2 on 10/20/15.
-//  Copyright © 2015 CartoonSmart. All rights reserved.
+//  Created by Calvin Nguyen on 1/31/17.
+//  Copyright © 2017 Calvin Nguyen. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import SpriteKit
+import UIKit
 
 class MovingPole: Pole {
     
@@ -27,7 +28,6 @@ class MovingPole: Pole {
     
     
     /*
-    //first method taught in the tutorial. Better method above
     
     var moveAmount:CGFloat = 1 // will toggle between 1 and -1, and we will pass this value onto thePlayer
     var moveTotal:CGFloat = 0 // when exceeds the max or min range, it will toggle the moveAmount from either 1 to -1

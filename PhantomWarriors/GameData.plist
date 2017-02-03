@@ -8,7 +8,7 @@
 			<key>SKSFile</key>
 			<string>Level1</string>
 			<key>PassLevelWithEnemiesKilled</key>
-			<integer>20</integer>
+			<integer>60</integer>
 			<key>HalfGoalsToPassForOnePlayer</key>
 			<true/>
 			<key>GoalMultipliedByLevelsPassed</key>
@@ -142,9 +142,9 @@
 					<key>SoundEnemyEnter</key>
 					<string></string>
 					<key>SoundEnemyHurt</key>
-					<string>EnemyHurt.caf</string>
+					<string>monster_hurt.wav</string>
 					<key>SoundEnemyDie</key>
-					<string>EnemyHurt.caf</string>
+					<string>monster_hurt.wav</string>
 					<key>SoundEnemyAttack</key>
 					<string></string>
 					<key>WalkFrames</key>
@@ -300,9 +300,9 @@
 					<key>SoundEnemyEnter</key>
 					<string></string>
 					<key>SoundEnemyHurt</key>
-					<string>EnemyHurt.caf</string>
+					<string>monster_hurt.wav</string>
 					<key>SoundEnemyDie</key>
-					<string>EnemyHurt.caf</string>
+					<string>monster_hurt.wav</string>
 					<key>SoundEnemyAttack</key>
 					<string></string>
 					<key>WalkFrames</key>
@@ -725,7 +725,7 @@
 			<key>WeaponDelay</key>
 			<real>0.2</real>
 			<key>SoundJump</key>
-			<string>PlayerJump.caf</string>
+			<string>rake_whoosh.mp3</string>
 			<key>SoundLand</key>
 			<string></string>
 			<key>SoundLoseHeart</key>
@@ -735,9 +735,9 @@
 			<key>SoundBounce</key>
 			<string></string>
 			<key>SoundShoot</key>
-			<string>PlayerFire.caf</string>
+			<string>ninja_throwing_star_whoosh.mp3</string>
 			<key>SoundBulletImpact</key>
-			<string></string>
+			<string>Explosion.mp3</string>
 			<key>SoundNoAmmo</key>
 			<string></string>
 		</dict>
@@ -856,7 +856,7 @@
 			<key>WeaponDelay</key>
 			<real>0.1</real>
 			<key>SoundJump</key>
-			<string>PlayerJump.caf</string>
+			<string>rake_whoosh.mp3</string>
 			<key>SoundLand</key>
 			<string></string>
 			<key>SoundLoseHeart</key>
@@ -866,9 +866,9 @@
 			<key>SoundBounce</key>
 			<string></string>
 			<key>SoundShoot</key>
-			<string>PlayerFire.caf</string>
+			<string>ninja_throwing_star_whoosh.mp3</string>
 			<key>SoundBulletImpact</key>
-			<string></string>
+			<string>Explosion.mp3</string>
 			<key>SoundNoAmmo</key>
 			<string></string>
 		</dict>
@@ -896,7 +896,7 @@
 				<key>SelectedImage</key>
 				<string>OnePlayerSoloButtonSelected</string>
 				<key>SoundButtonSelect</key>
-				<string>Select.caf</string>
+				<string>low_quick_whoosh.mp3</string>
 				<key>SoundButtonPress</key>
 				<string></string>
 			</dict>
@@ -915,7 +915,7 @@
 				<key>SelectedImage</key>
 				<string>OnePlayerCoopButtonSelected</string>
 				<key>SoundButtonSelect</key>
-				<string>Select.caf</string>
+				<string>low_quick_whoosh.mp3</string>
 				<key>SoundButtonPress</key>
 				<string></string>
 			</dict>
@@ -936,7 +936,7 @@
 				<key>Levels</key>
 				<string>VersusLevels</string>
 				<key>SoundButtonSelect</key>
-				<string>Select.caf</string>
+				<string>low_quick_whoosh.mp3</string>
 				<key>SoundButtonPress</key>
 				<string></string>
 			</dict>
@@ -955,7 +955,7 @@
 				<key>SelectedImage</key>
 				<string>TwoPlayerCoopButtonSelected</string>
 				<key>SoundButtonSelect</key>
-				<string>Select.caf</string>
+				<string>low_quick_whoosh.mp3</string>
 				<key>SoundButtonPress</key>
 				<string></string>
 			</dict>
@@ -976,7 +976,7 @@
 				<key>SelectedImage</key>
 				<string>TwoPlayerVersusButtonSelected</string>
 				<key>SoundButtonSelect</key>
-				<string>Select.caf</string>
+				<string>low_quick_whoosh.mp3</string>
 				<key>SoundButtonPress</key>
 				<string></string>
 			</dict>
@@ -987,7 +987,7 @@
 				<key>SelectedImage</key>
 				<string>ContinueGameButtonSelected</string>
 				<key>SoundButtonSelect</key>
-				<string>Select.caf</string>
+				<string>low_quick_whoosh.mp3</string>
 				<key>SoundButtonPress</key>
 				<string></string>
 			</dict>
@@ -998,7 +998,7 @@
 				<key>SelectedImage</key>
 				<string>GameCenterButtonSelected</string>
 				<key>SoundButtonSelect</key>
-				<string>Select.caf</string>
+				<string>low_quick_whoosh.mp3</string>
 				<key>SoundButtonPress</key>
 				<string></string>
 			</dict>
@@ -1009,7 +1009,7 @@
 				<key>LoadScene</key>
 				<string>AnotherMenu</string>
 				<key>SoundButtonSelect</key>
-				<string>Select.caf</string>
+				<string>low_quick_whoosh.mp3</string>
 				<key>SoundButtonPress</key>
 				<string></string>
 			</dict>
@@ -1041,7 +1041,7 @@
 				<key>SelectedImage</key>
 				<string>OnePlayerSoloButtonSelected</string>
 				<key>SoundButtonSelect</key>
-				<string>Select.caf</string>
+				<string>low_quick_whoosh.mp3</string>
 				<key>SoundButtonPress</key>
 				<string></string>
 			</dict>
@@ -1071,7 +1071,7 @@
 		<key>Columns</key>
 		<integer>2</integer>
 		<key>MP3Loop</key>
-		<string></string>
+		<string>Ninja Gaiden (NES) Soundtrack - 8BitStereo.mp3</string>
 		<key>IntroSound</key>
 		<string></string>
 	</dict>
@@ -1086,7 +1086,7 @@
 				<key>LoadScene</key>
 				<string>Home</string>
 				<key>SoundButtonSelect</key>
-				<string>Select.caf</string>
+				<string>low_quick_whoosh.mp3</string>
 				<key>SoundButtonPress</key>
 				<string></string>
 			</dict>
@@ -1173,8 +1173,8 @@
 	</dict>
 	<key>MP3List</key>
 	<array>
-		<string>ATL BEAT 8 by Anonymous.mp3</string>
-		<string>ATL BEAT 10 by Anonymous.mp3</string>
+		<string>Epic Japanese Music Shadow Ninja.mp3</string>
+		<string>Ninja Gaiden (NES) Soundtrack - 8BitStereo.mp3</string>
 	</array>
 	<key>EnableGameCenter</key>
 	<false/>

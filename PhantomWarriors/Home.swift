@@ -1,14 +1,15 @@
 //
 //  Home.swift
+//  Phantom Warrior
 //
-//
-//  Created by Justin Dike 2 on 10/6/15.
-//  Copyright © 2015 CartoonSmart. All rights reserved.
+//  Created by Calvin Nguyen on 1/31/17.
+//  Copyright © 2017 Calvin Nguyen. All rights reserved.
 //
 
 import SpriteKit
 import GameController
 import AVFoundation
+import UIKit
 
 import GameKit
 import StoreKit
@@ -197,7 +198,7 @@ class Home: SKScene, GKGameCenterControllerDelegate, SKProductsRequestDelegate, 
         
         
         
-        let path = Bundle.main.path(forResource: "LevelData", ofType: "plist")
+        let path = Bundle.main.path(forResource: "GameData", ofType: "plist")
         
         let dict:NSDictionary = NSDictionary(contentsOfFile: path!)!
         
@@ -232,7 +233,7 @@ class Home: SKScene, GKGameCenterControllerDelegate, SKProductsRequestDelegate, 
     func parsePropertyList(){
    
     
-        let path = Bundle.main.path(forResource: "LevelData", ofType: "plist")
+        let path = Bundle.main.path(forResource: "GameData", ofType: "plist")
     
         let dict:NSDictionary = NSDictionary(contentsOfFile: path!)!
     

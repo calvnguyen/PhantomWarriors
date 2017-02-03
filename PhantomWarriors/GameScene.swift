@@ -1266,7 +1266,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         var trackPromptPlaceholderAspectOffset:CGPoint = CGPoint.zero
         var trackCreditPlaceholderAspectOffset:CGPoint = CGPoint.zero
         
-        let path = Bundle.main.path(forResource: "LevelData", ofType: "plist")
+        let path = Bundle.main.path(forResource: "GameData", ofType: "plist")
         
         let dict:NSDictionary = NSDictionary(contentsOfFile: path!)!
         
@@ -2196,7 +2196,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
     
 
-        let path = Bundle.main.path(forResource: "LevelData", ofType: "plist")
+        let path = Bundle.main.path(forResource: "GameData", ofType: "plist")
         
         let dict:NSDictionary = NSDictionary(contentsOfFile: path!)!
         

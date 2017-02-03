@@ -1,9 +1,9 @@
 //
 //  GameViewController.swift
-//  SideScrolleriOS
+//  Phantom Warrior
 //
-//  Created by Justin Dike 2 on 12/4/15.
-//  Copyright (c) 2015 CartoonSmart. All rights reserved.
+//  Created by Calvin Nguyen on 1/31/17.
+//  Copyright © 2017 Calvin Nguyen. All rights reserved.
 //
 
 import UIKit
@@ -29,10 +29,10 @@ class GameViewController: UIViewController {
         
         NotificationCenter.default.addObserver(self, selector: #selector(GameViewController.stopBackgroundSound), name: NSNotification.Name(rawValue: "StopBackgroundSound"), object: nil)
         
+//        
+//        This value will be used to find a matching SKS file, for example, "Home.sks"  then  within the class it will be used as the name of the dictionary to look up in the property list. Even if you use device specific names for SKS files like "HomePad.sks" or "HomePhone.sks", Your data for the  class in the property list should be listed under the base name, for example "Home".
         
-        
-        
-        let sksNameToLoad:String = "Home" // This value will be used to find a matching SKS file, for example, "Home.sks"  then  within the class it will be used as the name of the dictionary to look up in the property list. Even if you use device specific names for SKS files like "HomePad.sks" or "HomePhone.sks", Your data for the  class in the property list should be listed under the base name, for example "Home".
+        let sksNameToLoad:String = "Home"
         
         var fullSKSNameToLoad:String = sksNameToLoad
         

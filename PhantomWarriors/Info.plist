@@ -39,7 +39,8 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>KOMTIT__.ttf</string>
+		<string>NinjaLine.ttf</string>
+		<string>DOMOAN__.TTF</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

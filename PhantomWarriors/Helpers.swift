@@ -1,9 +1,9 @@
 //
 //  Helpers.swift
-//  SideScroller
+//  Phantom Warrior
 //
-//  Created by Justin Dike 2 on 10/23/15.
-//  Copyright © 2015 CartoonSmart. All rights reserved.
+//  Created by Calvin Nguyen on 1/31/17.
+//  Copyright © 2017 Calvin Nguyen. All rights reserved.
 //
 
 import Foundation
@@ -21,7 +21,7 @@ class Helpers {
         var nextLevel:String  = "Level1"
         
         
-        let path = Bundle.main.path(forResource: "LevelData", ofType: "plist")
+        let path = Bundle.main.path(forResource: "GameData", ofType: "plist")
         
         let dict:NSDictionary = NSDictionary(contentsOfFile: path!)!
         
@@ -79,7 +79,7 @@ class Helpers {
     static func getMaxLevels( _ levelsName:String) -> Int {
         
 
-        let path = Bundle.main.path(forResource: "LevelData", ofType: "plist")
+        let path = Bundle.main.path(forResource: "GameData", ofType: "plist")
         
         let dict:NSDictionary = NSDictionary(contentsOfFile: path!)!
         

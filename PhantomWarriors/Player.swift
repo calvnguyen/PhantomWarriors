@@ -1,18 +1,14 @@
 //
 //  Player.swift
-//  SideScroller
+//  Phantom Warrior
 //
-//  Created by Justin Dike 2 on 10/20/15.
-//  Copyright © 2015 CartoonSmart. All rights reserved.
+//  Created by Calvin Nguyen on 1/31/17.
+//  Copyright © 2017 Calvin Nguyen. All rights reserved.
 //
 
 import Foundation
 import SpriteKit
-
-
-
-
-
+import UIKit
 
 class Player: SKSpriteNode {
     
@@ -215,7 +211,7 @@ class Player: SKSpriteNode {
         
          var playersDictionaryInLevelFound:Bool = false
         
-        let path = Bundle.main.path(forResource: "LevelData", ofType: "plist")
+        let path = Bundle.main.path(forResource: "GameData", ofType: "plist")
         
         let dict:NSDictionary = NSDictionary(contentsOfFile: path!)!
         
@@ -720,7 +716,7 @@ class Player: SKSpriteNode {
     func parsePropertiesInRoot(){
         
         
-        let path = Bundle.main.path(forResource: "LevelData", ofType: "plist")
+        let path = Bundle.main.path(forResource: "GameData", ofType: "plist")
         
         let dict:NSDictionary = NSDictionary(contentsOfFile: path!)!
         
