@@ -603,6 +603,8 @@
 			<string>VersusLevel1</string>
 			<key>CameraBetweenPlayers</key>
 			<false/>
+			<key>PlayMp3FromList</key>
+			<integer>0</integer>
 			<key>RefreshLevelOnDeath</key>
 			<true/>
 			<key>DisableContinue</key>
@@ -632,9 +634,9 @@
 			<key>SoundLevelSucceed</key>
 			<string>win-sound.mp3</string>
 			<key>SoundPlayer1Win</key>
-			<string></string>
+			<string>win-sound.mp3</string>
 			<key>SoundPlayer2Win</key>
-			<string></string>
+			<string>win-sound.mp3</string>
 			<key>Player1Ammo</key>
 			<dict>
 				<key>AwardsHowMuch</key>
