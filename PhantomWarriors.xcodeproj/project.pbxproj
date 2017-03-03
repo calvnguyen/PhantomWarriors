@@ -45,7 +45,6 @@
 		0A5971671C1730E2000CE1C7 /* GameScene_Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5971661C1730E2000CE1C7 /* GameScene_Operations.swift */; };
 		0A5971691C1730EE000CE1C7 /* GameScene_Physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5971681C1730EE000CE1C7 /* GameScene_Physics.swift */; };
 		0A67CCBF1CD6A55F00EF4376 /* Home_Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A67CCBE1CD6A55F00EF4376 /* Home_Store.swift */; };
-		0A67CCC11CD6A5AF00EF4376 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A67CCC01CD6A5AF00EF4376 /* StoreKit.framework */; };
 		0AC9F0911C124AA300D9D786 /* Home_Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC9F0901C124AA300D9D786 /* Home_Touches.swift */; };
 		0AD199301C163F1100EDB418 /* SkeletonKing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 0AD1992D1C163F1100EDB418 /* SkeletonKing.atlas */; };
 		0AD199311C163F1100EDB418 /* Player1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 0AD1992E1C163F1100EDB418 /* Player1.atlas */; };
@@ -53,24 +52,25 @@
 		0AD199341C163F2A00EDB418 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD199331C163F2A00EDB418 /* Game.xcassets */; };
 		0AD199391C163F4700EDB418 /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0AD199361C163F4700EDB418 /* Level1.sks */; };
 		0AD1993A1C163F4700EDB418 /* VersusLevel1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0AD199371C163F4700EDB418 /* VersusLevel1.sks */; };
-		782D73D11E43F4E900538E26 /* Epic Japanese Music Shadow Ninja.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 782D73D01E43F4E900538E26 /* Epic Japanese Music Shadow Ninja.mp3 */; };
-		782D73D41E43F63900538E26 /* Ninja Gaiden (NES) Soundtrack - 8BitStereo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 782D73D31E43F63900538E26 /* Ninja Gaiden (NES) Soundtrack - 8BitStereo.mp3 */; };
-		782D73D61E43F82000538E26 /* foley_walkers_suriken3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 782D73D51E43F82000538E26 /* foley_walkers_suriken3.mp3 */; };
-		782D73D81E43FBB800538E26 /* low_quick_whoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 782D73D71E43FBB800538E26 /* low_quick_whoosh.mp3 */; };
-		782D73DA1E43FC8500538E26 /* rake_whoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 782D73D91E43FC8500538E26 /* rake_whoosh.mp3 */; };
-		782D73DC1E44001500538E26 /* ninja_throwing_star_whoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 782D73DB1E44001500538E26 /* ninja_throwing_star_whoosh.mp3 */; };
-		782D73DE1E4402B700538E26 /* Explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 782D73DD1E4402B700538E26 /* Explosion.mp3 */; };
-		782D73E01E4406FC00538E26 /* monster_hurt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 782D73DF1E4406FC00538E26 /* monster_hurt.wav */; };
-		7873FAEA1E446AB1007D39A9 /* ammo-pick-up.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7873FAE91E446AB1007D39A9 /* ammo-pick-up.wav */; };
+		7817BF191E6908A20000A9B2 /* male_death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7817BF181E6908A20000A9B2 /* male_death.wav */; };
+		7828DB8A1E68F8F100538F61 /* intro_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7828DB891E68F8F100538F61 /* intro_music.mp3 */; };
+		7828DB8C1E68FA0000538F61 /* intro_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7828DB8B1E68FA0000538F61 /* intro_music.mp3 */; };
+		7828DB8E1E68FA1B00538F61 /* game_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7828DB8D1E68FA1B00538F61 /* game_music.mp3 */; };
+		7828DB901E68FA3800538F61 /* ninja_throwing_star_whoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7828DB8F1E68FA3800538F61 /* ninja_throwing_star_whoosh.mp3 */; };
+		7828DB921E68FA8B00538F61 /* female-death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7828DB911E68FA8B00538F61 /* female-death.wav */; };
+		7828DB941E68FAA800538F61 /* game-die.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7828DB931E68FAA800538F61 /* game-die.mp3 */; };
+		7828DB961E68FAC200538F61 /* win-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7828DB951E68FAC200538F61 /* win-sound.mp3 */; };
+		7828DB981E68FAD400538F61 /* no-ammo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7828DB971E68FAD400538F61 /* no-ammo.wav */; };
+		7828DB9A1E68FAE800538F61 /* game-over.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7828DB991E68FAE800538F61 /* game-over.wav */; };
+		7828DB9C1E68FB7D00538F61 /* ammo-pick-up.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7828DB9B1E68FB7D00538F61 /* ammo-pick-up.wav */; };
+		7828DB9E1E68FB9300538F61 /* foley_walkers_suriken3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7828DB9D1E68FB9300538F61 /* foley_walkers_suriken3.mp3 */; };
+		7828DBA01E68FBAA00538F61 /* low_quick_whoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7828DB9F1E68FBAA00538F61 /* low_quick_whoosh.mp3 */; };
+		7828DBA21E68FBC600538F61 /* rake_whoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7828DBA11E68FBC600538F61 /* rake_whoosh.mp3 */; };
+		7828DBA41E68FBE800538F61 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7828DBA31E68FBE800538F61 /* explosion.mp3 */; };
+		7828DBA61E68FC2800538F61 /* monster_hurt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7828DBA51E68FC2800538F61 /* monster_hurt.wav */; };
 		7873FAEC1E447D8A007D39A9 /* DeathRider.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7873FAEB1E447D8A007D39A9 /* DeathRider.atlas */; };
 		787FF1311E43CE6E0073E752 /* NinjaLine.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787FF1301E43CE6E0073E752 /* NinjaLine.ttf */; };
 		787FF1331E43D2390073E752 /* DOMOAN__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 787FF1321E43D2390073E752 /* DOMOAN__.TTF */; };
-		788285B01E45219700D2FF31 /* male_death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 788285AF1E45219700D2FF31 /* male_death.wav */; };
-		788285B21E45251A00D2FF31 /* female-death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 788285B11E45251A00D2FF31 /* female-death.wav */; };
-		78B7BF861E4487C000A94803 /* game-over.wav in Resources */ = {isa = PBXBuildFile; fileRef = 78B7BF851E4487C000A94803 /* game-over.wav */; };
-		78B7BF881E44888400A94803 /* win-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78B7BF871E44888400A94803 /* win-sound.mp3 */; };
-		78B7BF8A1E448BE300A94803 /* no-ammo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 78B7BF891E448BE300A94803 /* no-ammo.wav */; };
-		78B7BF8C1E448E1500A94803 /* game-die.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78B7BF8B1E448E1500A94803 /* game-die.mp3 */; };
 		78B7BF8E1E44FAB600A94803 /* Peasant.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 78B7BF8D1E44FAB600A94803 /* Peasant.atlas */; };
 /* End PBXBuildFile section */
 
@@ -115,7 +115,6 @@
 		0A5971661C1730E2000CE1C7 /* GameScene_Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene_Operations.swift; sourceTree = "<group>"; };
 		0A5971681C1730EE000CE1C7 /* GameScene_Physics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene_Physics.swift; sourceTree = "<group>"; };
 		0A67CCBE1CD6A55F00EF4376 /* Home_Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home_Store.swift; sourceTree = "<group>"; };
-		0A67CCC01CD6A5AF00EF4376 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		0AC9F0901C124AA300D9D786 /* Home_Touches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home_Touches.swift; sourceTree = "<group>"; };
 		0AD1992D1C163F1100EDB418 /* SkeletonKing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SkeletonKing.atlas; sourceTree = "<group>"; };
 		0AD1992E1C163F1100EDB418 /* Player1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Player1.atlas; sourceTree = "<group>"; };
@@ -123,24 +122,25 @@
 		0AD199331C163F2A00EDB418 /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
 		0AD199361C163F4700EDB418 /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
 		0AD199371C163F4700EDB418 /* VersusLevel1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = VersusLevel1.sks; sourceTree = "<group>"; };
-		782D73D01E43F4E900538E26 /* Epic Japanese Music Shadow Ninja.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Epic Japanese Music Shadow Ninja.mp3"; path = "../../../../../../Downloads/Epic Japanese Music Shadow Ninja.mp3"; sourceTree = "<group>"; };
-		782D73D31E43F63900538E26 /* Ninja Gaiden (NES) Soundtrack - 8BitStereo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Ninja Gaiden (NES) Soundtrack - 8BitStereo.mp3"; path = "../../../../../../Downloads/Ninja Gaiden (NES) Soundtrack - 8BitStereo.mp3"; sourceTree = "<group>"; };
-		782D73D51E43F82000538E26 /* foley_walkers_suriken3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = foley_walkers_suriken3.mp3; path = ../../../../../../Downloads/foley_walkers_suriken3.mp3; sourceTree = "<group>"; };
-		782D73D71E43FBB800538E26 /* low_quick_whoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = low_quick_whoosh.mp3; path = ../../../../../../Downloads/low_quick_whoosh.mp3; sourceTree = "<group>"; };
-		782D73D91E43FC8500538E26 /* rake_whoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rake_whoosh.mp3; path = ../../../../../../Downloads/rake_whoosh.mp3; sourceTree = "<group>"; };
-		782D73DB1E44001500538E26 /* ninja_throwing_star_whoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ninja_throwing_star_whoosh.mp3; path = ../../../../../../Downloads/ninja_throwing_star_whoosh.mp3; sourceTree = "<group>"; };
-		782D73DD1E4402B700538E26 /* Explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Explosion.mp3; path = ../../../../../../Downloads/Explosion.mp3; sourceTree = "<group>"; };
-		782D73DF1E4406FC00538E26 /* monster_hurt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = monster_hurt.wav; path = ../../../../../../Downloads/monster_hurt.wav; sourceTree = "<group>"; };
-		7873FAE91E446AB1007D39A9 /* ammo-pick-up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "ammo-pick-up.wav"; path = "../../../../../../Downloads/ammo-pick-up.wav"; sourceTree = "<group>"; };
+		7817BF181E6908A20000A9B2 /* male_death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = male_death.wav; sourceTree = "<group>"; };
+		7828DB891E68F8F100538F61 /* intro_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro_music.mp3; sourceTree = "<group>"; };
+		7828DB8B1E68FA0000538F61 /* intro_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro_music.mp3; sourceTree = "<group>"; };
+		7828DB8D1E68FA1B00538F61 /* game_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game_music.mp3; sourceTree = "<group>"; };
+		7828DB8F1E68FA3800538F61 /* ninja_throwing_star_whoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ninja_throwing_star_whoosh.mp3; sourceTree = "<group>"; };
+		7828DB911E68FA8B00538F61 /* female-death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "female-death.wav"; sourceTree = "<group>"; };
+		7828DB931E68FAA800538F61 /* game-die.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game-die.mp3"; sourceTree = "<group>"; };
+		7828DB951E68FAC200538F61 /* win-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "win-sound.mp3"; sourceTree = "<group>"; };
+		7828DB971E68FAD400538F61 /* no-ammo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "no-ammo.wav"; sourceTree = "<group>"; };
+		7828DB991E68FAE800538F61 /* game-over.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "game-over.wav"; sourceTree = "<group>"; };
+		7828DB9B1E68FB7D00538F61 /* ammo-pick-up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ammo-pick-up.wav"; sourceTree = "<group>"; };
+		7828DB9D1E68FB9300538F61 /* foley_walkers_suriken3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = foley_walkers_suriken3.mp3; sourceTree = "<group>"; };
+		7828DB9F1E68FBAA00538F61 /* low_quick_whoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = low_quick_whoosh.mp3; sourceTree = "<group>"; };
+		7828DBA11E68FBC600538F61 /* rake_whoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rake_whoosh.mp3; sourceTree = "<group>"; };
+		7828DBA31E68FBE800538F61 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		7828DBA51E68FC2800538F61 /* monster_hurt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = monster_hurt.wav; sourceTree = "<group>"; };
 		7873FAEB1E447D8A007D39A9 /* DeathRider.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = DeathRider.atlas; sourceTree = "<group>"; };
 		787FF1301E43CE6E0073E752 /* NinjaLine.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NinjaLine.ttf; path = ../../../../../../Downloads/NinjaLine.ttf; sourceTree = "<group>"; };
 		787FF1321E43D2390073E752 /* DOMOAN__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = DOMOAN__.TTF; path = ../../../../../../Downloads/fontmaker_domoaregato/DOMOAN__.TTF; sourceTree = "<group>"; };
-		788285AF1E45219700D2FF31 /* male_death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = male_death.wav; path = ../../../../../../Downloads/male_death.wav; sourceTree = "<group>"; };
-		788285B11E45251A00D2FF31 /* female-death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "female-death.wav"; path = "../../../../../../Downloads/female-death.wav"; sourceTree = "<group>"; };
-		78B7BF851E4487C000A94803 /* game-over.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "game-over.wav"; path = "../../../../../../Downloads/game-over.wav"; sourceTree = "<group>"; };
-		78B7BF871E44888400A94803 /* win-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "win-sound.mp3"; path = "../../../../../../Downloads/win-sound.mp3"; sourceTree = "<group>"; };
-		78B7BF891E448BE300A94803 /* no-ammo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "no-ammo.wav"; path = "../../../../../../Downloads/no-ammo.wav"; sourceTree = "<group>"; };
-		78B7BF8B1E448E1500A94803 /* game-die.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "game-die.mp3"; path = "../../../../../../Downloads/game-die.mp3"; sourceTree = "<group>"; };
 		78B7BF8D1E44FAB600A94803 /* Peasant.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Peasant.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,7 +149,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A67CCC11CD6A5AF00EF4376 /* StoreKit.framework in Frameworks */,
 				0A10E1031C173BEC0097B7DA /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,7 +169,6 @@
 		0A4926A11C12120B003F145F = {
 			isa = PBXGroup;
 			children = (
-				0A67CCC01CD6A5AF00EF4376 /* StoreKit.framework */,
 				0A4926AC1C12120B003F145F /* PhantomWarriors */,
 				0A4926BA1C12120B003F145F /* LaunchScreen.storyboard */,
 				0A4926B51C12120B003F145F /* Main.storyboard */,
@@ -215,21 +213,21 @@
 		0A4927271C1216B5003F145F /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				782D73D01E43F4E900538E26 /* Epic Japanese Music Shadow Ninja.mp3 */,
-				782D73DB1E44001500538E26 /* ninja_throwing_star_whoosh.mp3 */,
-				788285AF1E45219700D2FF31 /* male_death.wav */,
-				788285B11E45251A00D2FF31 /* female-death.wav */,
-				78B7BF8B1E448E1500A94803 /* game-die.mp3 */,
-				78B7BF871E44888400A94803 /* win-sound.mp3 */,
-				78B7BF891E448BE300A94803 /* no-ammo.wav */,
-				78B7BF851E4487C000A94803 /* game-over.wav */,
-				7873FAE91E446AB1007D39A9 /* ammo-pick-up.wav */,
-				782D73D31E43F63900538E26 /* Ninja Gaiden (NES) Soundtrack - 8BitStereo.mp3 */,
-				782D73D51E43F82000538E26 /* foley_walkers_suriken3.mp3 */,
-				782D73D71E43FBB800538E26 /* low_quick_whoosh.mp3 */,
-				782D73D91E43FC8500538E26 /* rake_whoosh.mp3 */,
-				782D73DD1E4402B700538E26 /* Explosion.mp3 */,
-				782D73DF1E4406FC00538E26 /* monster_hurt.wav */,
+				7828DB8F1E68FA3800538F61 /* ninja_throwing_star_whoosh.mp3 */,
+				7828DB9B1E68FB7D00538F61 /* ammo-pick-up.wav */,
+				7828DB8D1E68FA1B00538F61 /* game_music.mp3 */,
+				7828DB8B1E68FA0000538F61 /* intro_music.mp3 */,
+				7817BF181E6908A20000A9B2 /* male_death.wav */,
+				7828DB931E68FAA800538F61 /* game-die.mp3 */,
+				7828DBA51E68FC2800538F61 /* monster_hurt.wav */,
+				7828DBA31E68FBE800538F61 /* explosion.mp3 */,
+				7828DB911E68FA8B00538F61 /* female-death.wav */,
+				7828DB9F1E68FBAA00538F61 /* low_quick_whoosh.mp3 */,
+				7828DB991E68FAE800538F61 /* game-over.wav */,
+				7828DB9D1E68FB9300538F61 /* foley_walkers_suriken3.mp3 */,
+				7828DBA11E68FBC600538F61 /* rake_whoosh.mp3 */,
+				7828DB971E68FAD400538F61 /* no-ammo.wav */,
+				7828DB951E68FAC200538F61 /* win-sound.mp3 */,
 				0A4927321C1216C8003F145F /* Coin.caf */,
 			);
 			name = Sounds;
@@ -277,6 +275,7 @@
 				0A4926F21C121448003F145F /* Bumper.swift */,
 				0A544C0B1C163468008AC539 /* EnemyBumper.swift */,
 				0A4926F31C121448003F145F /* Pole.swift */,
+				7828DB891E68F8F100538F61 /* intro_music.mp3 */,
 				0A4926F41C121448003F145F /* MovingPole.swift */,
 			);
 			name = SpriteNodeClasses;
@@ -369,39 +368,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7873FAEA1E446AB1007D39A9 /* ammo-pick-up.wav in Resources */,
 				0A4926F61C121448003F145F /* GameData.plist in Resources */,
-				788285B01E45219700D2FF31 /* male_death.wav in Resources */,
 				787FF1311E43CE6E0073E752 /* NinjaLine.ttf in Resources */,
+				7817BF191E6908A20000A9B2 /* male_death.wav in Resources */,
 				0AD1993A1C163F4700EDB418 /* VersusLevel1.sks in Resources */,
 				787FF1331E43D2390073E752 /* DOMOAN__.TTF in Resources */,
 				7873FAEC1E447D8A007D39A9 /* DeathRider.atlas in Resources */,
 				0AD199321C163F1100EDB418 /* Player2.atlas in Resources */,
-				78B7BF8A1E448BE300A94803 /* no-ammo.wav in Resources */,
-				782D73D11E43F4E900538E26 /* Epic Japanese Music Shadow Ninja.mp3 in Resources */,
+				7828DBA41E68FBE800538F61 /* explosion.mp3 in Resources */,
 				0AD199391C163F4700EDB418 /* Level1.sks in Resources */,
+				7828DB961E68FAC200538F61 /* win-sound.mp3 in Resources */,
 				0A4926BC1C12120B003F145F /* LaunchScreen.storyboard in Resources */,
-				782D73D81E43FBB800538E26 /* low_quick_whoosh.mp3 in Resources */,
-				782D73DC1E44001500538E26 /* ninja_throwing_star_whoosh.mp3 in Resources */,
 				0AD199341C163F2A00EDB418 /* Game.xcassets in Resources */,
 				0AD199311C163F1100EDB418 /* Player1.atlas in Resources */,
+				7828DBA61E68FC2800538F61 /* monster_hurt.wav in Resources */,
+				7828DB9C1E68FB7D00538F61 /* ammo-pick-up.wav in Resources */,
+				7828DB941E68FAA800538F61 /* game-die.mp3 in Resources */,
+				7828DBA01E68FBAA00538F61 /* low_quick_whoosh.mp3 in Resources */,
+				7828DB9A1E68FAE800538F61 /* game-over.wav in Resources */,
 				0AD199301C163F1100EDB418 /* SkeletonKing.atlas in Resources */,
-				782D73DE1E4402B700538E26 /* Explosion.mp3 in Resources */,
-				78B7BF861E4487C000A94803 /* game-over.wav in Resources */,
-				782D73E01E4406FC00538E26 /* monster_hurt.wav in Resources */,
+				7828DB901E68FA3800538F61 /* ninja_throwing_star_whoosh.mp3 in Resources */,
 				0A4ADF0C1D00DE1900962076 /* SpringBoard.atlas in Resources */,
-				782D73DA1E43FC8500538E26 /* rake_whoosh.mp3 in Resources */,
-				782D73D41E43F63900538E26 /* Ninja Gaiden (NES) Soundtrack - 8BitStereo.mp3 in Resources */,
-				78B7BF8C1E448E1500A94803 /* game-die.mp3 in Resources */,
+				7828DB8E1E68FA1B00538F61 /* game_music.mp3 in Resources */,
 				0A4926B91C12120B003F145F /* Assets.xcassets in Resources */,
-				78B7BF881E44888400A94803 /* win-sound.mp3 in Resources */,
-				782D73D61E43F82000538E26 /* foley_walkers_suriken3.mp3 in Resources */,
 				0A4926DE1C1213F5003F145F /* Explode.atlas in Resources */,
 				0A4926B71C12120B003F145F /* Main.storyboard in Resources */,
-				788285B21E45251A00D2FF31 /* female-death.wav in Resources */,
 				78B7BF8E1E44FAB600A94803 /* Peasant.atlas in Resources */,
+				7828DBA21E68FBC600538F61 /* rake_whoosh.mp3 in Resources */,
 				0A4927551C1216C8003F145F /* Coin.caf in Resources */,
+				7828DB921E68FA8B00538F61 /* female-death.wav in Resources */,
+				7828DB8A1E68F8F100538F61 /* intro_music.mp3 in Resources */,
+				7828DB8C1E68FA0000538F61 /* intro_music.mp3 in Resources */,
+				7828DB981E68FAD400538F61 /* no-ammo.wav in Resources */,
 				0A4927711C1216D4003F145F /* KOMTIT__.ttf in Resources */,
+				7828DB9E1E68FB9300538F61 /* foley_walkers_suriken3.mp3 in Resources */,
 				0A5971611C172D89000CE1C7 /* Home.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -562,7 +562,7 @@
 				INFOPLIST_FILE = PhantomWarriors/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "CalvNgCodingDojo.BucketList-v1";
+				PRODUCT_BUNDLE_IDENTIFIER = CalvNgCodingDojo.PhantomWarrior;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
@@ -580,7 +580,7 @@
 				INFOPLIST_FILE = PhantomWarriors/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "CalvNgCodingDojo.BucketList-v1";
+				PRODUCT_BUNDLE_IDENTIFIER = CalvNgCodingDojo.PhantomWarrior;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

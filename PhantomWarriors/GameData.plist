@@ -104,7 +104,7 @@
 					<key>Score</key>
 					<integer>100</integer>
 					<key>SpawnFrequency</key>
-					<integer>7</integer>
+					<integer>5</integer>
 					<key>TotalToSpawn</key>
 					<integer>0</integer>
 					<key>SpawnNode</key>
@@ -241,7 +241,7 @@
 					<key>Score</key>
 					<integer>500</integer>
 					<key>SpawnFrequency</key>
-					<integer>2</integer>
+					<integer>8</integer>
 					<key>TotalToSpawn</key>
 					<integer>0</integer>
 					<key>SpawnNode</key>
@@ -391,7 +391,7 @@
 					<key>Score</key>
 					<integer>600</integer>
 					<key>SpawnFrequency</key>
-					<integer>4</integer>
+					<integer>6</integer>
 					<key>TotalToSpawn</key>
 					<integer>0</integer>
 					<key>SpawnNode</key>
@@ -844,7 +844,7 @@
 			<key>SoundShoot</key>
 			<string>ninja_throwing_star_whoosh.mp3</string>
 			<key>SoundBulletImpact</key>
-			<string>Explosion.mp3</string>
+			<string>explosion.mp3</string>
 			<key>SoundNoAmmo</key>
 			<string>no-ammo.wav</string>
 		</dict>
@@ -981,7 +981,7 @@
 			<key>SoundShoot</key>
 			<string>ninja_throwing_star_whoosh.mp3</string>
 			<key>SoundBulletImpact</key>
-			<string>Explosion.mp3</string>
+			<string>explosion.mp3</string>
 			<key>SoundNoAmmo</key>
 			<string>no-ammo.wav</string>
 		</dict>
@@ -1184,7 +1184,7 @@
 		<key>Columns</key>
 		<integer>2</integer>
 		<key>MP3Loop</key>
-		<string>Ninja Gaiden (NES) Soundtrack - 8BitStereo.mp3</string>
+		<string>intro_music.mp3</string>
 		<key>IntroSound</key>
 		<string></string>
 	</dict>
@@ -1286,14 +1286,12 @@
 	</dict>
 	<key>MP3List</key>
 	<array>
-		<string>Epic Japanese Music Shadow Ninja.mp3</string>
-		<string>Ninja Gaiden (NES) Soundtrack - 8BitStereo.mp3</string>
+		<string>game_music.mp3</string>
+		<string>intro_music.mp3</string>
 	</array>
 	<key>EnableGameCenter</key>
 	<false/>
 	<key>LeaderBoardID</key>
 	<string>HighScore</string>
-	<key>TransactionID</key>
-	<string></string>
 </dict>
 </plist>
